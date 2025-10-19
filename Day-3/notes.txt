@@ -1,0 +1,7 @@
+css - styling (website ko sundar banane ke liye)
+
+Cascading StyleSheet
+
+div - 
+    container
+    to make rectangular shapes

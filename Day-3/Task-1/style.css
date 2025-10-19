@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    background-color: #04203bda;
+    padding: 50px;
+}
+
+#main h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
+#main p{
+    font-size: 15px;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+#profile{
+    background-color: rgb(234, 248, 248);
+    justify-content: center;
+    padding: 70px 150px;
+}
+
+#about{
+    background-color: white;
+    width: 100%;
+    padding: 40px 30px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 1.7;
+}
+
+h3{
+    font-size: 20px;
+    line-height: 2.5;
+}
+
+#about p{
+    font-size: 15px;
+}
+
+#education{
+    background-color: rgb(153, 211, 252);
+    text-align: center;
+    padding: 40px 120px;
+    border-radius: 10px;
+    line-height: 1.7;
+}
+
+
+.ed{
+    padding: 15px 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#skills{
+    background-color: rgb(253, 239, 170);
+    text-align: center;
+    padding: 40px 230px;
+    border-radius: 10px;
+    line-height: 1.7;
+}
+
+.sk{
+    padding: 15px 20px;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 550;
+}
+
+#projects{
+    background-color: rgb(227, 198, 244);
+    text-align: center;
+    padding: 40px 180px;
+    border-radius: 10px;
+    line-height: 1.7;
+}
+
+.pro{
+    padding: 15px 20px;
+    background-color: white;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+#contact{
+    background-color: rgb(195, 251, 208);
+    text-align: center;
+    padding: 40px 250px;
+    border-radius: 10px;
+    line-height: 1.7;
+}
+
+.cme{
+    padding: 15px 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#fter{
+    background-color: #04203bda;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-size: 14px;   
+}
