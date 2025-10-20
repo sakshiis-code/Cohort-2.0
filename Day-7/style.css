@@ -1,7 +1,13 @@
+@font-face {
+    font-family: apple;
+    src: url(./SFPRODISPLAYREGULAR.OTF);
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: apple;
 }
 
 html,body{
@@ -9,3 +15,147 @@ html,body{
     width: 100%;
 }
 
+#nav{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(23, 22, 22);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: #c8c8c8;
+}
+
+#nav a{
+    text-decoration: none;
+    color: #c8c8c8;
+}
+
+#center{
+    height: 80%;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#center img{
+    height: 100%;
+}
+
+#nextsection{
+    height: 80%;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    background-color: #fcf6f6;
+}
+
+#nextsection h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+
+#nextsection p{
+    font-size: 20px;
+}
+
+#links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 25px;
+}
+
+#links button{
+    padding: 13px 20px;
+    border-radius: 50px;
+    border: 1px solid rgb(51, 51, 254);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+#b1{
+    background-color: rgb(43, 91, 211);
+    color: #fff;
+}
+
+#b2{
+    background-color: #fff;
+    color: rgb(43, 91, 211);
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+#nextsection img{
+    padding-top: 8px;
+    height: 100%;
+    width: 850px;
+}
+
+#thirdsection{
+    height: 80%;
+    width: 100%;
+    text-align: center;
+    padding-top: 70px;
+    background-color: #fcf6f6;
+}
+
+#thirdsection h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+
+#thirdsection p{
+    font-size: 20px;
+}
+
+#thirdsection img{
+    padding-top: 8px;
+    height: 80%;
+    width: 750px;
+}
+/* #center h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+#center h5{
+    color: white;
+    padding-top: 5px;
+    font-size: 15px;
+    font-weight: 300;
+} */
+
+
+
+/* #parent{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+#box1{
+    height:150px;
+    width: 200px;
+    background-color: tomato;
+}
+
+#box2{
+    height:150px;
+    width: 200px;
+    background-color: rgb(71, 175, 255);
+}
+
+#box3{
+    height:150px;
+    width: 200px;
+    background-color: rgb(187, 255, 71);
+} */
