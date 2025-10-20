@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#box{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    border: 5px solid black;
+}
+
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color: lightgoldenrodyellow;
+    border: 10px solid black;
+}
+
+/* body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+} */
+
+#box3{
+    height: 80px;
+    width: 150px;
+    background-color: crimson;
+    color: #fff;
+
+    transform: translateX(130%);
+    /* transform: rotate(90deg); */
+}
+
+
+#section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+body{
+    perspective: 1000px;
+}
+
+#box4{
+    height: 200px;
+    width: 200px;
+    margin-left: 30px;
+    background-image: url(https://images.unsplash.com/photo-1759671826409-ad0aae2a2485?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1NXx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+
+    /* transform: rotateX(180deg); */
+    transform: rotateY(40deg);
+
+    /* transform: scale(1); */
+}
+
+.card{
+    margin-left: 30px;
+    height: 200px;
+    width: 300px;
+    background-color: aquamarine;
+}
+
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bottom{
+    height: 40%;
+    width: 100%;
+    background-color: red;
+}
