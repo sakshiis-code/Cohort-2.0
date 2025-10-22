@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 60px 1fr 1fr;
+
+    grid-template-areas: "header header header"
+                         "section section section"
+                         "div1 div2 div3";
+
+    grid-gap: 20px;
+    padding: 20px;
+
+    text-align: center;
+    font-size: 20px;
+}
+
+header{
+    background-color: rgb(17, 114, 82);
+    grid-area: header;
+}
+
+section{
+    background-color: rgb(8, 110, 161);
+    grid-area: section;
+}
+
+#div1{
+    background-color: rgb(136, 9, 81);
+    grid-area: div1;
+}
+
+#div2{
+    background-color: rgb(89, 6, 85);
+    grid-area: div2;
+}
+
+#div3{
+    background-color: rgb(108, 6, 6);
+    grid-area: div3;
+}

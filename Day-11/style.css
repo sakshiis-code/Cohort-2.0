@@ -16,25 +16,66 @@ main{
     width: 100%;
     background-color: black;
     display: grid;
-    /* grid-template-columns: 100px minmax(200px, auto) 100px; */
-    /* grid-template-columns: repeat(2,100px); */
-    
-    grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 60px 1fr 80px;
 
-    /* row-gap: 10px;
-    column-gap: 10px; */
+    grid-template-areas: "header header"
+                          "aside section"
+                          "footer footer"
+    ;
     grid-gap: 10px;
-    align-content: space-between;
-    justify-content: space-between;
+    padding: 10px;
 }
 
-.child{
+header{
+    background-color: rgb(121, 191, 35);
+    grid-area: header;
+}
+
+aside{
+    background-color: rgb(37, 154, 154);
+    grid-area: aside;
+}
+
+section{
+    background-color: rgb(178, 20, 83);
+    grid-area: section;
+}
+
+footer{
+    background-color: rgb(156, 13, 13);
+    grid-area: footer;
+}
+
+/* main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 70px 1fr 100px;
+    grid-gap: 10px;
+} */
+
+/* .children{
+    background-color: rgb(102, 220, 55);
+    border: 3px solid white;
+} */
+
+/* #child1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    grid-row: 1/4;
+    grid-column: 1/2;
+} */
+
+/* .child{
     background-color: rgb(118, 27, 45);
     border: 3px solid white;
     height: 100px;
     width: 100px;
-}
+} */
 
 /* header{
     height: 60px;
