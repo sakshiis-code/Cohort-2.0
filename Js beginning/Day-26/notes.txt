@@ -24,6 +24,7 @@
 
 ****** js ko browser me run karna ******
     Ctrl + Shift + J
+    Ctrl + Shift + I -> to open developers tool
 
 
 ****** var let const ******
