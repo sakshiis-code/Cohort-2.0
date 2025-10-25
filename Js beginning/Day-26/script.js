@@ -8,7 +8,7 @@ a = 32;
 b = 64;
 c = 43; // will give an error
 
-console.log("heyyy");
+console.log("heyy");
 console.error("There is some bug");
 console.warn("Be safe");
 
