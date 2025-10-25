@@ -1,0 +1,40 @@
+****** introduction to js ******
+    scripting language
+    computers ko binary samajh aati hai jo ki 0 1 me likhi jaati hai 0101010010101011101
+    computer -> interpreter/compiler -> 0101010101001
+
+    Js - created by Brendan Eich (in 15-16 days) - 1995
+    worked in Netscape
+    ECMASCRIPT community
+
+    js browser pe chalti hai
+    iss js file ko hum index.html se connect karte hai
+
+
+****** why it is important ******
+    kyuki website pe animation -> interaction -> mostly har type ka koi engagement create karne ke liye js use hoti hai
+
+
+****** what can it do for you? ******
+    engagement, interactions, animations, validation
+
+
+****** script tag use karke attach karna hai js ko ******
+
+
+****** js ko browser me run karna ******
+    Ctrl + Shift + J
+
+
+****** var let const ******
+
+****** console....prompt alert ******
+
+****** strings kya hoti hai ******
+
+****** slice, 
+template-strings (template literal ``), 
+split, 
+replace, 
+includes ******
+    `` -> backtick
