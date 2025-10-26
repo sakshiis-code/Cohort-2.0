@@ -1,0 +1,40 @@
+***** var let const *****
+    let kuch khaas cheeze fix karta hai jo ki var nahi karta hai
+
+***** console *****
+    console.log()
+    console.info()
+    console.warn()
+    console.error()
+    console.table()
+
+***** prompt alert *****
+***** string *****
+    ""
+    ''
+    1234a
+
+***** slice template-strings split replace includes *****
+    "sakshi sharma!!".slice(7,13)
+    o/p 
+    'sharma'
+
+    `` template strings
+    `sakshi ${2+2}`
+    o/p
+    'sakshi 4'
+
+    "sakshi sharma".split(" ")
+    o/p
+    ['sakshi', 'sharma']
+
+    "sakshi sharma".replace('h','g')
+    o/p
+    'saksgi sharma'
+
+    "sakshi sharma".replaceAll('h','g')
+    o/p
+    'saksgi sgarma'
+
+
+***** statements expressions *****
