@@ -1,0 +1,31 @@
+@import "button";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+// @mixin button-style($bg-color){
+//     margin: 20px;
+//     padding: 20px 30px;
+//     background-color: $bg-color;
+//     border: none;
+//     border-radius: 7px;
+//     outline: none;
+//     cursor: pointer;
+//     font-size: 18px;
+// }
+
+.blue{
+    @include button-style(rgb(10, 10, 132), rgb(184, 161, 247), 18px);
+}
+
+.red{
+    @include button-style(rgb(100, 8, 8), rgb(247, 96, 96), 20px);
+}

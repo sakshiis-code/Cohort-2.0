@@ -2,8 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
 }
 
 html,
@@ -14,8 +12,8 @@ body {
 
 .blue {
   padding: 15px 30px;
-  background-color: blue;
-  color: white;
+  background-color: rgb(10, 10, 132);
+  color: rgb(184, 161, 247);
   border: none;
   border-radius: 7px;
   cursor: pointer;
@@ -25,8 +23,8 @@ body {
 
 .red {
   padding: 15px 30px;
-  background-color: red;
-  color: white;
+  background-color: rgb(100, 8, 8);
+  color: rgb(247, 96, 96);
   border: none;
   border-radius: 7px;
   cursor: pointer;
