@@ -1,0 +1,29 @@
+add comments
+
+datatypes - data ka type hi hai datatype
+    sarah - string
+    12 - number
+    false true - boolean
+    [] - array
+    {} - object
+    12.3 - float
+
+float - 12.3
+number - 12
+string - sarah
+boolean - true false
+null - jab aapke paas koi value na ho dene ke liye tab null use hota hai
+
+array - ek se zyada value hold karne ke liye
+[1, 2, "sakshi, {}, [], class Animal()]
+
+object - ek se zyada properties ek bande ki hold karne ke liye
+
+Symbol
+undefined - jab koi variable banaya but usey koi value nahi di
+NaN - koi number ke saath aissa operation kiya jo ho nhi sakta to NaN milta hai
+Infinity
+
+relative and primitive datatype in js
+    primitives - jinki value direct copy kar sakte hai
+    relative - jinki value direct copy nahi kar sakte hai
