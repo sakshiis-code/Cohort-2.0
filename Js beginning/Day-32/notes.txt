@@ -1,0 +1,25 @@
+### Loops & Conditionals in Javascript
+conditionals
+
+if else
+
+truthy and falsy
+    0 "" false NaN null undefined document.all -> false
+    inke alawa aurr kuch bhi dikhe -> true
+
+conditions ? true : false
+
+switch
+
+Loops
+repeat karna
+    for
+    while
+    do...while
+    forEach
+    for in
+    for of
+
+straightforward loops => naa hi vlaue badalti hai naa hi printing badalti hai
+dynamic loop => value badal sakti hai and printing bhi badal sakti hai
+

@@ -1,0 +1,37 @@
+px % vh vw
+
+Absolute Units
+    fixed value
+Relative Units
+    depend on something
+    % => parent element ke dimensions
+    vw => viewport's width
+    vh => viewport's height
+    rem => root element
+    em => nearest ancestor
+    vmin
+    vmax
+
+    100vw => full viewport width => 500px
+    100 vw = 500px
+    1vw = 5px
+
+    100vh => 600px
+    1vh = 6px
+    50vh = 300px
+
+    html
+    body
+    section
+    main
+    default font size = 16px
+
+    em => closest ancestor ki value leta hai
+
+
+***** Fluid Typography *****
+responsive typography -> clamp() with vw and px
+
+clamp(lowerLimit, value, upperLimit)
+
+clamp(14px, 1vw, 18px)

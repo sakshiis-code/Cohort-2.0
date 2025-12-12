@@ -1,0 +1,60 @@
+*{
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+@keyframes changeBackgroundColor{
+    from{
+        background-color: #fff;
+        border-radius: 0px;
+        transform: translateX(0px);
+    }
+    to{
+        background-color: rgb(160, 5, 77);
+        border-radius: 50px;
+        scale: 0.5;
+        transform: translateX(100px);
+    }
+}
+
+/* discrete properties in css */
+
+.box3{
+    height: 200px;
+    width: 400px;
+    background-color: #fff;
+    animation: changeBackgroundColor 5s infinite forwards alternate;
+}
+
+
+/* color, length, angle */
+@property --bgColor{
+    syntax: "<color>";
+    initial-value: green;
+    inherits: false;
+}
+
+@keyframes animateBgColor{
+    from{
+        --bgColor: red;
+    }
+
+    to{
+        --bgColor: blue;
+    }
+}
+
+.box4{
+    height: 200px;
+    width: 400px;
+    background-color: var(--bgColor);
+    border: 1px solid white;
+    animation: animateBgColor 5s;
+}
